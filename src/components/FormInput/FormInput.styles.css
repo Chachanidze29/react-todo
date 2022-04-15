@@ -1,0 +1,28 @@
+.form-input{
+    width: 50%;
+    font-size: 1.2rem;
+    padding: 12px 20px 12px 2px;
+    margin: 10px auto;
+    border: none;
+    border-bottom: 1px solid lightpink;
+    outline: none;
+}
+
+::placeholder{
+    color: pink;
+}
+
+.add-button{
+    display: block;
+    margin: 0 auto;
+    background-color: lightpink;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.add-button:hover{
+    background-color: white;
+    color: lightpink;
+    border: 1px solid lightpink;
+    cursor: pointer;
+}
